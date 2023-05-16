@@ -1,0 +1,17 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="TestOrca">
+			<method name="OnClickConnectWallet"/>
+		</type>
+	</assembly>
+	<assembly fullname="com.solana.unity_sdk" ignoreIfMissing="1">
+		<type fullname="Solana.Unity.SDK.WalletAdapterButton">
+			<method name="OnSelected"/>
+			<method name="OnSelected"/>
+		</type>
+		<type fullname="Solana.Unity.SDK.WalletAdapterScreen">
+			<method name="OnClose"/>
+			<method name="OnClose"/>
+		</type>
+	</assembly>
+</linker>
